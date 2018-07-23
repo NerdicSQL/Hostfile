@@ -1,3 +1,6 @@
+# Function to add all Docker SQL Server images to the hosts file.
+# Some functionality taken from https://gist.github.com/markembling/173887
+# Rewritten and expanded on the concept - but Mark's code was the basis, really.
 function Docker-SQLToHostfile{
 
 	try {
